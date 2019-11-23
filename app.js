@@ -18,7 +18,6 @@ var chunk;
 var startMatch = ['\x89','P','N','G'].join('');
 //png footer
 var endMatch = ['I','E','N','D','\xAE','B','`'].join('');
-require('buffertools').extend();
 while(start !== -1){
     start = data.indexOf(startMatch,start);
     end = data.indexOf(endMatch,start);

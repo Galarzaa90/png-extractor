@@ -13,7 +13,6 @@
   },
   "license": "BSD",
   "dependencies": {
-    "buffertools": "^2.1.2",
     "yargs": "^1.3.1"
   }
 }
